@@ -17,12 +17,14 @@ Pr-requisite:
  4.	Cucumber plug-in in Eclipse
  5.	Junit
  6.	TestNG
+ 
+ 
 Steps to run at your system:
 Clone the repository using "git clone "
- Open cmd and go to project directory then enter ìmvn verifyî or "mvn test" command
+ Open cmd and go to project directory then enter ‚Äúmvn verify‚Äù or "mvn test" command
 Cucumber Reports: com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter - This will generate two reports
 Spark Report (folder - "test-output\SparkReport"), file - "index.html"
-PDF Report(folder - "test output\PdfReport"), file ñ "Extent.pdf"
+PDF Report(folder - "test output\PdfReport"), file ‚Äì "Extent.pdf"
 Folders for these reports:
  
 
