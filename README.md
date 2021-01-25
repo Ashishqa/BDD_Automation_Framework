@@ -35,7 +35,5 @@ Cucumber Reports: com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAd
 Spark Report (folder - "test-output\SparkReport"), file - "index.html"
 
 PDF Report(folder - "test output\PdfReport"), file – "Extent.pdf"
-
-Folders for these reports:
  
 
