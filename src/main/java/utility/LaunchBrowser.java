@@ -28,6 +28,7 @@ public class LaunchBrowser {
 			options.addArguments("--disable-popup-blocking");
 			options.addArguments("--allowed-ips");
 			options.addArguments("start-maximized");
+			options.addArguments("--disable-gpu"); 
 			System.setProperty("webdriver.chrome.driver",new Paths().chromeExePath);  
 			driver = new ChromeDriver(options);
 			break;
