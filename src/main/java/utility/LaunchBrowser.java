@@ -26,6 +26,7 @@ public class LaunchBrowser {
 			options.addArguments("--disable-notifications");
 			options.addArguments("enable-automation");
 			options.addArguments("--disable-popup-blocking");
+			options.addArguments("--allowed-ips");
 			options.addArguments("start-maximized");
 			System.setProperty("webdriver.chrome.driver",new Paths().chromeExePath);  
 			driver = new ChromeDriver(options);
